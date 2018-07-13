@@ -16,7 +16,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+
 
 include_recipe 'nodejs::install' if node['nodejs']['manage_node']
 include_recipe 'nodejs::npm' if node['nodejs']['manage_node']
