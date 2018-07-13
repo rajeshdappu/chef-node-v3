@@ -1,2 +1,3 @@
 knife cookbook site --force download awscli --local-mode
+knife cookbook site --force install awscli --local-mode
 berks install
